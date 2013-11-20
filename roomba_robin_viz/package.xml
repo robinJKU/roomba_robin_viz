@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+  <name>roomba_robin_viz</name>
+  <version>1.0.0</version>
+  <description>Catkin meta-package for roomba_robin_viz</description>
+  <maintainer email="stephan.hofstaetter@gmail.com">Stephan Hofstaetter</maintainer>
+  <license>BSD</license>
+  <url type="website">http://ros.org/wiki/turtlebot_rviz_launchers</url>
+  <url type="repository">https://github.com/robinJKU/roomba_robin_viz</url>
+  <url type="bugtracker">https://github.com/robinJKU/roomba_robin_viz/issues</url>
+  <author email="stephan.hofstaetter@gmail.com">Stephan Hofstaetter</author>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>turtlebot_dashboard</run_depend>
+  <run_depend>turtlebot_interactive_markers</run_depend>
+  <run_depend>turtlebot_rviz_launchers</run_depend>
+  <run_depend>roomba_robin_rviz_launchers</run_depend>
+  
+  <export>
+    <metapackage/>
+  </export>
+</package>

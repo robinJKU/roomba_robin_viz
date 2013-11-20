@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+  <name>roomba_robin_interactive_markers</name>
+  <version>1.0.0</version>
+  <description>Interactive control for the TurtleBot with JKU Stack using RViz and interactive markers</description>
+  <maintainer email="Stephan.Hofstaetter@gmail.com">Stephan Hofstaetter</maintainer>
+  <license>BSD</license>
+  <url type="website">http://ros.org/wiki/turtlebot_interactive_markers</url>
+  <url type="repository">https://github.com/robinJKU/roomba_robin_viz</url>
+  <url type="bugtracker">https://github.com/turtlebot/roomba_robin_viz/issues</url>
+  <author email="Stephan.Hofstaetter@gmail.com">Stephan Hofstaetter</author>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <build_depend>roscpp</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+  <build_depend>interactive_markers</build_depend>
+
+  <run_depend>roscpp</run_depend>
+  <run_depend>visualization_msgs</run_depend>
+  <run_depend>interactive_markers</run_depend>
+  <run_depend>turtlebot_bringup</run_depend>
+  <run_depend>roomba_robin_bringup</run_depend>
+</package>
